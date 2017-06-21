@@ -1,0 +1,46 @@
+{
+  "name": "node-es6-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for Node.js projects with lint, transpile and test configurations",
+  "main": "./build/index.js",
+  "scripts": {
+    "babel-node": "babel-node --",
+    "build": "./node_modules/.bin/babel src -d build",
+    "dist": "./node_modules/.bin/babel src -d dist --presets=babili",
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aharshac/cfm-parser.git"
+  },
+  "keywords": [
+    "nodejs",
+    "boilerplate",
+    "es6",
+    "es2015",
+    "babel",
+    "mocha",
+    "lint"
+  ],
+  "author": "Harsha Alva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aharshac/cfm-parser/issues"
+  },
+  "homepage": "https://github.com/aharshac/cfm-parser#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babili": "^0.1.3",
+    "eslint": "^4.0.0",
+    "mocha": "^3.4.2",
+    "power-assert": "^1.4.4"
+  }
+}
