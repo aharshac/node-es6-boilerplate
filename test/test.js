@@ -1,11 +1,12 @@
 import assert from 'power-assert';
 
-import package from '../package.json';
+import pkg from '../package.json';
 
-import src from '../src/`;
+import * as src from '../src/';
 
-describe(package.name, function() {
+describe(pkg.name, function() {
   it('loads without crashing', () => {
+    assert.equal(src.helloWorld(), "Hi");
     assert.equal(src.obj.a, "1");
   });
   

@@ -7,6 +7,7 @@ const str = "abc";
 
 const helloWorld = () => {
     console.log("Hello World!");
+    return "Hi";
 }
 
 export { obj, str, helloWorld };

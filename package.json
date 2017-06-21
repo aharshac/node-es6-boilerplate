@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aharshac/cfm-parser.git"
+    "url": "git+https://github.com/aharshac/node-es6-boilerplate.git"
   },
   "keywords": [
     "nodejs",
@@ -25,9 +25,9 @@
   "author": "Harsha Alva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aharshac/cfm-parser/issues"
+    "url": "https://github.com/aharshac/node-es6-boilerplate/issues"
   },
-  "homepage": "https://github.com/aharshac/cfm-parser#readme",
+  "homepage": "https://github.com/aharshac/node-es6-boilerplate#readme",
   "dependencies": {
   },
   "devDependencies": {
